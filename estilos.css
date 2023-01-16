@@ -1,0 +1,45 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 15px;
+    background-color: #efefef;
+}
+#titulo {
+    font-size: 50px;
+    text-align: center;
+    /*border: 5px solid white;*/
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 15;
+}
+
+.botones:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#lista {
+    width: 500px;
+    background-color: blueviolet;
+ 
+    height: 700px;
+    display: inline-block;
+}
+
+#foto {
+    display: inline-block;
+    width: 600px;
+    height: 700px;
+
+}
+
+#perfil {
+    width: 300px;
+    float: left;
+}
+
+#perfil {
+    float: right;
+}
