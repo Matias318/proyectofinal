@@ -6,14 +6,14 @@ body {
     margin: 15px;
     background-color: #efefef;
 }
-#titulo {
+/*#titulo {
     font-size: 50px;
     text-align: center;
-    /*border: 5px solid white;*/
+    border: 5px solid white;
     margin-top: 20px;
     margin-bottom: 50px;
     padding: 15;
-}
+}*/
 
 .botones:hover {
     color: red;
@@ -21,25 +21,20 @@ body {
 }
 
 #lista {
-    width: 500px;
-    background-color: blueviolet;
- 
+    width: 50%;
     height: 700px;
-    display: inline-block;
+    background-color: blueviolet;
+    float: left
 }
 
 #foto {
-    display: inline-block;
-    width: 600px;
+    width: 50%;
     height: 700px;
+    float: right
 
 }
 
 #perfil {
     width: 300px;
     float: left;
-}
-
-#perfil {
-    float: right;
 }

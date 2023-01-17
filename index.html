@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&family=Rubik+Bubbles&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
 </head>
 <body>
     <header>
-        <h1 id="titulo">CV</h1>
+        <h1 class="container-fluid text-center bg-dark text-white" id="titulo">CV</h1>
     </header>
-    <ul id="lista">
+    <ul class="row" id="lista">
         <li><button class="botones">Información personal</button></li>
         <p>Nombre<br>Apellido <br>Fecha de naciemiento <br>Nacionalidad</p>
         <li><button class="botones">Estudio</button></li>
@@ -24,7 +25,7 @@
         <li><button class="botones">Extras</button></li>
         <p>hobby<br>cursos</p>
     </ul>
-    <div id="foto">
+    <div class="row" id="foto">
         <button class="botones" id="posicion">FOTO</button>
         <img src="mandarina.png" id="perfil">
     </div>
