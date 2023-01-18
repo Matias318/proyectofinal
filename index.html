@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final Matias Albesa</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&family=Rubik+Bubbles&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
 </head>
@@ -17,21 +14,24 @@
     </header>
     <ul class="row" id="lista">
         <li><button class="botones">Información personal</button></li>
-        <p>Nombre<br>Apellido <br>Fecha de naciemiento <br>Nacionalidad</p>
+        <p id="info">Nombre<br>Apellido <br>Fecha de naciemiento <br>Nacionalidad</p>
         <li><button class="botones">Estudio</button></li>
-        <p>Primaria<br>Secundari<br>Universitario/Tersario</p>
+        <p id="info">Primaria<br>Secundari<br>Universitario/Tersario</p>
         <li><button class="botones">Experiencia laboral</button></li>
-        <p>Trabajo 1<br>Trabajo 2<br>trabajo 3</p>
+        <p id="info">Trabajo 1<br>Trabajo 2<br>trabajo 3</p>
         <li><button class="botones">Extras</button></li>
-        <p>hobby<br>cursos</p>
+        <p id="info">hobby<br>cursos</p>
     </ul>
-    <div class="row" id="foto">
-        <button class="botones" id="posicion">FOTO</button>
-        <img src="mandarina.png" id="perfil">
+    <div class="row">
+        <div class="col-12">
+            <button type="button" class="btn btn-dark" id="info">Foto</button>
+        </div>
+        <img src="https://randomuser.me/api/portraits/men/19.jpg" class="perfil">
     </div>
-    <footer id="pie">
+    <footer class="container-fluid bg-dark text-white" id="pie">
         <p>Copyright 2022</p>
-        <a href="mailto:matiasalbesa@gmail.com">Enviar mail</a>
+        <a href="mailto:matiasalbesa@gmail.com" id="mail">Enviar mail</a>
     </footer>
+    <script src="funcion.js"></script>
 </body>
 </html>
