@@ -1,3 +1,6 @@
-document.getElementsByClassName("botones").onclick = function() {
-    document.getElementsById("info").style.display = none;
-}
+
+function changedisplay(newDisply) {
+    const elem = document.getElementById('info');
+    elem.style.display = newDisply;
+  }
+  

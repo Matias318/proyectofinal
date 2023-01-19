@@ -12,8 +12,9 @@
     <header>
         <h1 class="container-fluid text-center bg-dark text-white" id="titulo">CV</h1>
     </header>
+
     <ul class="row" id="lista">
-        <li><button class="botones">Información personal</button></li>
+        <li><button class="botones" onclick="changedisplay('none')">Información personal</button></li>
         <p id="info">Nombre<br>Apellido <br>Fecha de naciemiento <br>Nacionalidad</p>
         <li><button class="botones">Estudio</button></li>
         <p id="info">Primaria<br>Secundari<br>Universitario/Tersario</p>
@@ -22,16 +23,19 @@
         <li><button class="botones">Extras</button></li>
         <p id="info">hobby<br>cursos</p>
     </ul>
+
     <div class="row">
         <div class="col-12">
-            <button type="button" class="btn btn-dark" id="info">Foto</button>
+            <button type="button" class="btn btn-dark" id="foto">Foto</button>
         </div>
         <img src="https://randomuser.me/api/portraits/men/19.jpg" class="perfil">
     </div>
+
     <footer class="container-fluid bg-dark text-white" id="pie">
         <p>Copyright 2022</p>
         <a href="mailto:matiasalbesa@gmail.com" id="mail">Enviar mail</a>
     </footer>
+
     <script src="funcion.js"></script>
 </body>
 </html>
