@@ -1,0 +1,21 @@
+.carta01 {
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    height: 300px;
+    width: 500px;
+}
+
+.carta {
+    background-image: url(person-vcard.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: center;
+    height: 300px;
+    width: 500px;
+}
+
+.info {
+   
+}
