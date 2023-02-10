@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -49,37 +50,49 @@
     <section>
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-light" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-light" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-light" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="card align-items-center justify-content-center pb-5 carta">
-                    <div class="card carta01">
-                      <h1 class="info">información personal.</h1>
-                    </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card text-bg-dark">
+                <div class="card text-bg-secondary carta02">
                     <img src="person-vcard.svg" class="carta01" alt="...">
                     <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                      <h5 class="card-title carta">Datos personales</h5>
+                      <p class="card-text carta" id="apellido"></p>
+                      <p class="card-text carta" id="nombre"></p>
+                      <p class="card-text carta" id="nacimiento"></p>
+                      <p class="card-text carta" id="edad"></p>
+                      <p class="card-text carta" id="dni"></p>
+                      <p class="card-text carta" id="nacionalidad"></p>
                     </div>
-                  </div>
+                </div>
               </div>
               <div class="carousel-item">
-                <div class="card align-items-center justify-content-center pb-5">
-                    <div class="card-body">
-                      pais
-                      localidad
-                      ciudad.
+                <div class="card text-bg-secondary carta02">
+                  <img src="map-fill.svg" class="carta01" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Locación</h5>
+                      <p class="card-text carta" id="pais"></p>
+                      <p class="card-text carta" id="estado"></p>
+                      <p class="card-text carta" id="ciudad"></p>
+                      <p class="card-text carta" id="calle"></p>
+                      <p class="card-text carta" id="altura"></p>
+                      <p class="card-text carta" id="codigo_postal"></p>
                     </div>
-                  </div>
+                </div>
               </div>
+              <div class="carousel-item">
+                <div class="card text-bg-secondary carta02">
+                    <img src="telephone-outbound-fill.svg" class="carta01" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Contacto</h5>
+                      <p class="card-text carta" id="tel"></p>
+                      <p class="card-text carta" id="cel"></p>
+                      <a href="#" class="card-text" id="mail"></a>
+                    </div>
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
