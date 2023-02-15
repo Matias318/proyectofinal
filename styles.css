@@ -1,29 +1,114 @@
 .carta01 {
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 400px;
-    width: 100%;
-   
-    
-}
-
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 400px;
+      width: 100%;  
+  }
+  
 .carta {
-    font-weight: bold;
-}
-
+      font-weight: bold;
+  }
+  
 .carta02{
-    border-radius: 0%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    width: 100%;
-    
-}
-
+      border-radius: 0%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+      width: 100%;  
+  }
+  
 #mail {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+.seccion_estudio{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #e6e6fa;
+  }
+  
+.titulo{
+      text-align: center;
+     
+  }
+  
+.experiencia {
+      padding: 40px 40px 60px 40px;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 18px;
+  }
+  
+h5 {
+      font-size: 1.5rem;
+      font-family: 'Roboto Mono', monospace;
+      font-weight: bold;
+  }
+  
+.seccion_clara {
+      color: black;
+      background-color: white;
+  
+  }
+  
+.experiencia i {
+      font-size: 2.5rem;
+      color: #7ade30;
+      background-color: #0a0a23;
+      padding: 8px 19px;
+      border-radius: 50%;
+  }
+  
+.experiencia .columna{
+      padding: 20px;
+      border: 2px solid #8080804d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      transition: all 0.2s ease-in;
+  }
+  
+.experiencia .columna:hover{
+      color: white;
+      background-color: #1b1b32;
+  }
+  
+.seccion_oscura {
+      background-color: #1b1b32;
+      color: white;
+      padding: 15px;
+      width: 100%;
+      text-align: center;
+      font-size: 1.2rem;
+  }
+  
+.iconos_redes_sociales{
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2px;
+      margin: 10px;
+      border: 2px solid white;
+      border-radius: 50%;
+      transition: all 0.2s ease-in;
+      color: white;
+      font-size: 1.5rem;
+  }
+  
+.iconos_redes_sociales:hover {
+      background-color: white;
+      border: 2px solid rgb(13, 110, 253);
+      color: black;
+  
+  }
+  
+.derechos_de_autor {
+      font-size: 15px;
+      color: #aeaeae;
+      padding: 20px;
+  }
